@@ -1,0 +1,4 @@
+minimumReleaseAge: 2880 # minutes - applies to all packages except those in minimumReleaseAgeExclude
+minimumReleaseAgeExclude:
+  - '@sealights/*'  # All packages from @sealights scope
+  - 'slnodejs'      # Sealights Node.js agent (unscoped)
