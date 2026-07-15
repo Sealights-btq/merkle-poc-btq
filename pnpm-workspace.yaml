@@ -2,6 +2,10 @@ packages:
   - 'src/**'
   - 'integration-tests/**'
 
+onlyBuiltDependencies:
+  - pprof
+  - protobufjs
+
 minimumReleaseAge: 2880 # minutes - applies to all packages except those in minimumReleaseAgeExclude
 minimumReleaseAgeExclude:
   - '@sealights/*'  # All packages from @sealights scope
